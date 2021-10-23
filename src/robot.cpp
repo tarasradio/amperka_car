@@ -26,7 +26,8 @@ void Robot::stop() {
 }
 
 void Robot::move() {
-	analogWrite(this->lSpeedPin, this->speed);
+	analogWrite(this->lSpeedPin, this->lSpeed);
+	analogWrite(this->rSpeedPin, this->rSpeed);
 }
 
 void Robot::setSpeed(int speed) {

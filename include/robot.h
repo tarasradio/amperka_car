@@ -16,7 +16,6 @@ private:
 	void move();
   int lDirPin, lSpeedPin;
   int rDirPin, rSpeedPin;
-	int speed;
 	int lSpeed, rSpeed;
 };
 
